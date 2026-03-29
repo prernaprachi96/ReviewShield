@@ -1,6 +1,6 @@
-# 🛒 ReviewGuard: Fake Review Detection for E-commerce
+# 🛒 ReviewShield: Fake Review Detection for E-commerce
 
-ReviewGuard is a machine learning-based system that detects whether a product review is **Fake** or **Genuine**. It uses Natural Language Processing (NLP) techniques and multiple classification models to improve trust in e-commerce platforms.
+ReviewShield is a machine learning-based system that detects whether a product review is **Fake** or **Genuine**. It uses Natural Language Processing (NLP) techniques and multiple classification models to improve trust in e-commerce platforms.
 
 ---
 
