@@ -32,3 +32,48 @@ ReviewGuard is a machine learning-based system that detects whether a product re
 ---
 
 ## 📂 Project Structure
+
+---
+
+## ⚙️ Workflow
+
+1. Load dataset (Excel)
+2. Data cleaning and preprocessing
+3. Train-test split
+4. Feature extraction using TF-IDF
+5. Train multiple ML models
+6. Evaluate models (Accuracy, Precision, Recall, F1-score)
+7. Save best model using Pickle
+8. Deploy UI using Gradio
+
+---
+
+## 📊 Model Evaluation
+
+The following metrics are used:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+SVM generally performs best on TF-IDF features.
+
+---
+
+## 🖥️ UI Demo (Gradio)
+
+The project includes a simple UI where users can:
+- Enter a product review
+- Get prediction instantly:
+  - ❌ Fake Review
+  - ✅ Genuine Review
+
+---
+
+## ▶️ How to Run (Google Colab)
+
+### Step 1: Install dependencies
+```python
+!pip install gradio
+interface.launch()
