@@ -69,6 +69,8 @@ The project includes a simple UI where users can:
   - ❌ Fake Review
   - ✅ Genuine Review
 
+<img width="1699" height="565" alt="image" src="https://github.com/user-attachments/assets/c4dfc994-8add-482f-b7e3-c7a1309d3fab" />
+
 ---
 
 ## ▶️ How to Run (Google Colab)
@@ -77,3 +79,5 @@ The project includes a simple UI where users can:
 ```python
 !pip install gradio
 interface.launch()
+
+
