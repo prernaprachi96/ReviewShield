@@ -1,30 +1,21 @@
 # 🛒 ReviewGuard: Fake Review Detection for E-commerce
 
-ReviewGuard is a machine learning-based system that detects whether a product review is **Fake** or **Genuine** using NLP and classification models.
+ReviewGuard is a machine learning-based system that detects whether a product review is **Fake** or **Genuine**. It uses Natural Language Processing (NLP) techniques and multiple classification models to improve trust in e-commerce platforms.
 
 ---
 
-## 🚀 Demo Preview
-
-### 🔹 UI Interface
-![UI Screenshot](images/ui.png)
-
-### 🔹 Prediction Example
-![Prediction Screenshot](images/output.png)
-
----
-
-## 🎯 Features
+## 🚀 Features
 
 - Detects fake vs genuine product reviews
-- NLP-based text processing using TF-IDF
+- Uses NLP (TF-IDF) for text processing
 - Multiple ML models:
   - Logistic Regression
   - Naive Bayes
-  - SVM
+  - Support Vector Machine (SVM)
   - Random Forest
-- Real-time prediction UI (Gradio)
-- Model saving using Pickle
+- Model comparison and evaluation
+- Interactive UI using Gradio (runs in Google Colab)
+- Supports real-time custom review prediction
 
 ---
 
@@ -34,35 +25,10 @@ ReviewGuard is a machine learning-based system that detects whether a product re
 - Scikit-learn
 - Pandas
 - NumPy
-- Gradio
 - TF-IDF Vectorization
+- Gradio (UI)
+- Pickle (model saving)
 
 ---
 
-## 📊 Workflow
-
-![Workflow Diagram](images/workflow.png)
-
-1. Load dataset  
-2. Data preprocessing  
-3. Train-test split  
-4. Feature extraction (TF-IDF)  
-5. Model training  
-6. Evaluation  
-7. Prediction  
-
----
-
-## 🖥️ UI Example
-
-### Input
-![Input Example](images/input.png)
-
-### Output
-![Output Example](images/output2.png)
-
----
-
-## 🧪 Example Prediction
-
-**Input:**
+## 📂 Project Structure
